@@ -1,0 +1,22 @@
+# Multiwatch proxy list
+#
+# One proxy per line. Blank lines and lines starting with # are ignored.
+# Accepted formats:
+#   socks5://203.0.113.10:1080
+#   socks4://203.0.113.11:1080
+#   http://203.0.113.12:8080
+#   https://203.0.113.13:443
+#   203.0.113.14:1080        <- gets -ProxyScheme (default socks5)
+#
+# Credentials (user:pass@host:port) are NOT supported: Chrome's
+# --proxy-server flag cannot carry them. Use an extension for auth proxies.
+#
+# Powered by Proxifly's free list, for example:
+#   curl -sL https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/countries/IN/data.txt -o proxies.txt
+#
+# Add your proxies below this line.
+
+socks5://203.0.113.10:1080
+socks4://203.0.113.11:1080
+http://203.0.113.12:8080
+203.0.113.14:1080
